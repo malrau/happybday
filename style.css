@@ -1,0 +1,84 @@
+
+
+section {
+    margin: 0em;
+    padding: 5em;
+    background-color: rgba(255, 248, 231, 1);
+}
+
+img {
+    position: relative;
+    height: 35em;
+    margin: 2em;
+}
+
+figcaption {
+    position: absolute;
+    width: 35em;
+    top: 32em;
+    left: 14em;
+    border: solid;
+    border-width: 0.05em;
+    color: darkred;
+    background-color: rgba(200, 155, 200, 0.5);
+}
+
+figcaption#page1 {
+    position: absolute;
+    width: 35em;
+    top: 40em;
+    left: 14em;
+    border: solid;
+    border-width: 0.05em;
+    color: darkred;
+    background-color: rgba(200, 155, 200, 0.5);
+}
+
+
+figcaption#page2 {
+    position: absolute;
+    width: 50em;
+    top: 30em;
+    left: 14em;
+    border: solid;
+    border-width: 0.05em;
+    color: darkred;
+    background-color: rgba(200, 155, 200, 0.5);
+}
+
+figcaption#page3 {
+    position: absolute;
+    width: 50em;
+    top: 30em;
+    left: 14em;
+    border: solid;
+    border-width: 0.05em;
+    color: darkred;
+    background-color: rgba(200, 155, 200, 0.5);
+}
+
+figcaption#page4 {
+    position: absolute;
+    width: 30em;
+    top: 40em;
+    left: 14em;
+    border: solid;
+    border-width: 0.05em;
+    color: darkred;
+    background-color: rgba(200, 155, 200, 0.5);
+}
+
+#left {
+    position: relative;
+    left: 10em;
+}
+
+#centre {
+    position: relative;
+    left: 25em;    
+}
+
+#right {
+    position: relative;
+    left: 40em;    
+}
