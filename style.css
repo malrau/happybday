@@ -4,27 +4,38 @@ section {
     margin: 0em;
     padding: 10%;
     background-color: rgba(255, 248, 231, 1);
-    border: solid;
+    border: none;
     border-width: 0.02em;
+    font-family: "Marker Felt", "Gill Sans Extrabold", "Zapfino", sans-serif;
+    color: rgba(245, 230, 230, 1);
+    font-weight: 500;
+    text-align: center;
+}
+
+header {
+    //color: rgba(185, 135, 175, 1);
+    color: rgba(68, 0, 153, 1);
+    font-size: 64px;
+    background-color: rgba(20, 0, 50, 0.15);
 }
 
 figure {
     width: 100%;
     padding: 5%;
-    border: solid;
+    border: none;
     border-width: 0.02em;
 }
 
 img {
     width: 90%;
-    border: solid;
+    border: none;
     border-width: 0.02em;
 }
 
 p {
     position: absolute;
-    top: 90%;
-    left: 20%;
+    top: 105%;
+    left: 25%;
     width: 50%;
     line-height: 150%;
     outline: none;
@@ -32,22 +43,20 @@ p {
     border-width: 0.02em;
     border-color: rgba(255, 255, 255, 0.35);
     background-color: rgba(155, 125, 125, 0.15);
-    font-family: "Marker Felt", "Gill Sans Extrabold", "Zapfino", sans-serif;
-    color: rgba(245, 230, 230, 1);
-    text-align: center;
 }
 
 p.page1 {
     font-weight: 500;
     font-size: 64px;
-    color: rgba(185, 135, 175, 1);
+    color: rgba(104, 7, 161, 0.55);
+    font-size: 64px;
 }
 
 p.page2#one {
     float: left;
     top: 25%;
     padding-top: 1.5%;
-    margin-left: -5%;
+    margin-left: -6%;
     width: 15%;
     height: 45%;
 }
@@ -56,7 +65,7 @@ p.page2#two {
     float: right;
     top: 25%;
     padding-top: 1.5%;
-    margin-left: 43%;
+    margin-left: 42%;
     width: 15%;
     height: 65%;
 }
@@ -65,25 +74,28 @@ p.page3#one {
     float: left;
     top: 25%;
     padding-top: 1.5%;
-    margin-left: -5%;
+    margin-left: -6%;
     width: 15%;
     height: 72%;
+    background-color: rgba(50, 50, 50, 0.15);
 }
 
 p.page3#two {
     float: right;
     top: 25%;
     padding-top: 1.5%;
-    margin-left: 43%;
+    margin-left: 42%;
     width: 15%;
     height: 30%;
+    background-color: rgba(50, 50, 50, 0.35);
 }
 
 p.page4#one {
     float: left;
     top: 85%;
-    margin-left: -5%;
-    width: 35%
+    margin-left: -6%;
+    width: 35%;
+    background-color: rgba(50, 50, 50, 0.35);
 }
 
 p.page4#two {
@@ -95,10 +107,10 @@ p.page4#two {
 }
 
 nav {
-    margin: 2em;
+    margin: 1.5% 0% 0% 15%;
     width: 75%;
     overflow: auto;
-    border: solid;
+    border: none;
     border-width: 0.02em;
 }
 
@@ -111,7 +123,7 @@ a {
 }
 
 #centre {
-    margin-left: 100px;
+    margin-left: 0%;
 }
 
 #right {
