@@ -71,6 +71,27 @@ p.page2#two {
 
 p.page3#one {
     float: left;
+    top: 45%;
+    padding-top: 1.5%;
+    margin-left: -6%;
+    width: 15%;
+    height: 35%;
+    color: rgba(245, 230, 230, 1);
+    background-color: rgba(50, 50, 50, 0.45);
+}
+
+p.page3#two {
+    float: right;
+    top: 35%;
+    padding-top: 1.5%;
+    margin-left: 42%;
+    width: 15%;
+    height: 55%;
+    background-color: rgba(50, 50, 50, 0.45);
+}
+
+p.page4#one {
+    float: left;
     top: 25%;
     padding-top: 1.5%;
     margin-left: -6%;
@@ -79,7 +100,7 @@ p.page3#one {
     background-color: rgba(50, 50, 50, 0.15);
 }
 
-p.page3#two {
+p.page4#two {
     float: right;
     top: 25%;
     padding-top: 1.5%;
@@ -89,7 +110,7 @@ p.page3#two {
     background-color: rgba(50, 50, 50, 0.35);
 }
 
-p.page4#one {
+p.page5#one {
     float: left;
     top: 85%;
     margin-left: -6%;
@@ -97,7 +118,7 @@ p.page4#one {
     background-color: rgba(50, 50, 50, 0.35);
 }
 
-p.page4#two {
+p.page5#two {
     float: right;
     top: 35%;
     margin-left: 40%;
